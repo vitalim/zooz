@@ -1,4 +1,5 @@
 require 'zooz_payments/version'
+require 'zooz_payments/api'
 
 module ZoozPayments
   class << self
@@ -8,7 +9,7 @@ module ZoozPayments
     def setup
       self.response_type = 'NVP'
       yield self
-      self.url = self.sandbox ? 'https://sandbox.zooz.co':'https://app.zooz.com'
+      self.url = self.sandbox ? 'https://sandbox.zooz.co/mobile/SecuredWebServlet':'https://app.zooz.com/mobile/SecuredWebServlet'
     end
 
   end
