@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = ZoozPayments::VERSION
   gem.authors       = ['Vitali Margolin']
   gem.email         = %w(vitali.m86@gmail.com)
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Zooz payments mobile api}
+  gem.summary       = %q{Zooz payments mobile api}
   gem.homepage      = ''
   gem.license       = 'MIT'
 
