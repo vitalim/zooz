@@ -1,4 +1,4 @@
-# Zooz payments
+# Zooz payments - test
 
 zooz_payments gem is a ruby wrapper for zooz Affiliate Network
 
